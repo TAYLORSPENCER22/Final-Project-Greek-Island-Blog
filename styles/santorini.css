@@ -6,6 +6,10 @@ body {
     color: #333;
 }
 
+.cursive-text {
+    font-family: cursive;
+}
+
 .greek-islands {
     width: 50%;
     height: 50%;
@@ -14,6 +18,10 @@ body {
 
 header {
     background-color: white;
+    background-image: url(/images/female.png);
+    background-size: 100px 100px;
+    background-position: right;
+    background-repeat: no-repeat;
     color: #0077cc;
     padding: 1em 0;
     text-align: center;
@@ -21,11 +29,17 @@ header {
 
 header h1 {
    margin: 0;
+   text-align: center;
+   padding-left: 2em;
+   color: #0077cc;
+  /* background-color: #0077cc;*/
+   font-weight: lighter;
 }
 
 nav ul {
     list-style: none;
-    padding: 0;
+    padding: 1em 0 1em 0;
+    border-bottom: 1px solid lightgray;
 }
 
 nav ul li {
@@ -35,9 +49,10 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #0077cc;
+    color: black;
+    font-size: 110%;
     text-decoration: none;
-    font-weight: bold;
+ 
 }
 
 main {
