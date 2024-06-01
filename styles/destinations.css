@@ -1,9 +1,13 @@
 body {
+    display: flex;
+    flex-direction: column;
     font-family: 'Playfair Display', serif;
-    margin: 0;
+    margin: 1em auto;
     padding: 0;
     background-color: white;
     color: #333;
+    width: 960px;
+    border: 1px solid black;
 }
 
 .cursive-text {
