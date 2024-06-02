@@ -59,7 +59,7 @@ nav ul li a {
 }
 
 main {
-    padding: 20px;
+    padding: 0 20px;
 }
 
 section {
@@ -68,6 +68,7 @@ section {
 
 section h2 {
     color: #0077cc;
+    text-align: center;
 }
 
 section p {
@@ -76,17 +77,37 @@ section p {
 
 .destination {
     margin-bottom: 20px;
+    padding: 0 5px 0 0;
+    align-items: center;
+}
+
+#santorini {
+    width: 300px;
+    height: auto;
+    float: left;
+
+}
+
+#mykonos {
+    width: 300px;
+    height: auto;
+    float: left;
+}
+
+#crete {
+    width: 300px;
+    height: auto;
+    float: right;
 }
 
 .islands {
-    width: 50%;
-    height: 50%;
+    width: 300px%;
+    height: auto;
 }
 
 .destination img {
     max-width: 100%;
     height: auto;
-    border-radius: 8px;
 }
 
 footer {

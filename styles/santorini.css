@@ -60,19 +60,27 @@ nav ul li a {
 }
 
 main {
-    padding: 20px;
+    padding: 0 20px;
 }
 
 section {
     margin-bottom: 40px;
 }
 
+section h1 {
+    font-size: 150%;
+    padding-left: 2em;
+}
 section h2 {
     color: #0077cc;
 }
 
+figcaption {
+    text-align: right;
+}
 section p {
     line-height: 1.6;
+    padding: 0 2em;
 }
 
 .destination {
@@ -85,9 +93,8 @@ section p {
 }
 
 .destination img {
-    max-width: 100%;
+   width:100%;
     height: auto;
-    border-radius: 8px;
 }
 
 footer {
