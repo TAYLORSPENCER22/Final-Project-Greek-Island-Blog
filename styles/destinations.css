@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     font-family: 'Playfair Display', serif;
     margin: 1em auto;
     padding: 0;
@@ -101,7 +102,7 @@ section p {
 }
 
 .islands {
-    width: 300px%;
+    width: 300px;
     height: auto;
 }
 
